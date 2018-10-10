@@ -1,0 +1,33 @@
+body{
+    margin-top: 20px;
+}
+.jumbotron{
+    background: #eee;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.jumbotron h1{
+    font-weight: 400;
+}
+.jumbotron h2 {
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin-top: 30px;
+}
+
+select.form-control {
+    min-width: 20%;
+    max-width: 320px;
+    margin-bottom: 25px;
+}
