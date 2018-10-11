@@ -26,8 +26,7 @@ hr {
     margin-top: 30px;
 }
 
-select.form-control {
-    min-width: 20%;
-    max-width: 320px;
-    margin-bottom: 25px;
+select.form-control{
+    margin-bottom: 30px;
+    width: 200px;
 }
