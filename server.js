@@ -10,6 +10,7 @@ var PORT = 8080;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(express.static("public"));
 
 // Sets up the Express app to handle data parsing
 require("./app/routes/htmlRoutes.js")(app);
